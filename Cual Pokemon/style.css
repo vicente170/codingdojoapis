@@ -1,0 +1,30 @@
+* {
+     outline:1px dotted red;
+    
+  }
+
+  .container{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+  }
+
+.pokemons{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column: 1/5;
+    overflow-y: scroll;
+    height: 90vh;
+}
+
+.pokemons img{
+    width: auto;
+    cursor:pointer;
+}
+
+.pokedex{
+    grid-column:5/7;
+}
+
+ul{
+    padding-left: ;
+}
